@@ -1,10 +1,13 @@
 
-function sayHello(name) {
-    
-    const greeting = `Hello, funtion ! ${name}`;
+const products = [
+    'mesa',
+    'silla',
+    'escritorio',
+    'cama',
+    'sofa',
+];
 
-    return greeting;
-} 
+products.push('sillon');
+console.log(products);
 
-const result = sayHello('pepe');
-console.log(result);
+products.forEach(el => console.log(el));
