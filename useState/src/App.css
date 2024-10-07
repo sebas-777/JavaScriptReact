@@ -1,0 +1,60 @@
+
+.App{
+    background-color: #4B71F5;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.logo-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    height: 100px;
+}
+
+.react-logo{
+    height: 100px;
+    margin: 50px;
+}
+
+form{
+    background-color: #c6cde2;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button{
+    background-color: white;
+    border: 2px solid #4B71F5;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
